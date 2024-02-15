@@ -1,0 +1,68 @@
+@media (max-width:1000px) {
+  .home__left__title {
+    font-size: 36px;
+  }
+
+  
+}
+
+@media (max-width:720px) {
+  .home__left__title {
+    font-size: 36px;
+  }
+
+  #home {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .home__left,
+  .home__right {
+    width: 100%;
+  }
+
+  .services__card {
+    margin: 0 auto;
+  }
+
+  .card__doe {
+    flex-direction: column;
+  }
+
+  .card__left,
+  .card__right {
+    width: 100%;
+  }
+}
+
+@media (max-width:400px) {
+  .home__left__title {
+      font-size: 30px;
+      line-height: 50px;
+    }
+  
+  .home__left__text {
+    font-size: 20px;
+  }
+
+  .home__left__btn {
+    padding: 5px 20px;
+  }
+
+  .header__nav__contact-btn {
+    display: none;
+  }
+
+  .logo__title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .team__title {
+    font-size: 30px;
+  }
+
+  footer {
+    justify-content: center;
+  }
+}

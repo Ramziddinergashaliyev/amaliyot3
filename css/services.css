@@ -1,0 +1,119 @@
+.services__top {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.services__top__title {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+}
+
+.services__top__text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 20px 0px 40px;
+}
+
+.services__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+.services__card {
+  width: 252px; 
+  border-radius: 10px ;
+  border: 1px;
+  text-align: center;
+  padding: 10px;
+}
+
+.services__card:hover {
+  background-color: #A3E0E8;
+}
+
+.services__card__title {
+  font-family: Work Sans;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.services__card__text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.card__doe {
+  display: flex;
+  align-items: center;
+  padding: 160px 0px;
+  gap: 40px;
+}
+
+.card__left__title{
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.card__left__text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card__left,
+.card__right{
+  width: 50%;
+}
+
+.card__right__img {
+  width: 80%;
+}
+
+.card__left__btn {
+  padding: 12px 30px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #35AFBF;
+  border-radius: 6px;
+  border: 1px solid #35AFBF;
+  background: transparent;
+  margin-top: 40px;
+  transition: 1s;
+}
+
+.card__left__btn:hover {
+  background-color: #35AFBF;
+  color: white;
+  box-shadow: inset 500px 5px #35AFBF;
+}

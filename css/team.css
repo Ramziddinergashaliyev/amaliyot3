@@ -1,0 +1,33 @@
+#team {
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.team__title {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.team__btn {
+  padding: 12px 35px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  background-color: #35AFBF;
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.team__btn:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #35AFBF;
+  color: #35AFBF;
+}

@@ -1,0 +1,61 @@
+.about__top {
+  text-align: center;
+}
+
+.about__top__title {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 120px 0px 20px;
+}
+
+.about__top__text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.about__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 10px 0px 100px;
+}
+
+.about__card {
+  width: 300px;
+  text-align: center;
+}
+
+.about__card__title {
+  font-family: Work Sans;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about__card__text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.linear {
+  height: 2px;
+  background: linear-gradient(90deg, rgba(53, 175, 191, 0) 0%, rgba(53, 175, 191, 0.83) 49.65%, rgba(53, 175, 191, 0) 100%);
+}

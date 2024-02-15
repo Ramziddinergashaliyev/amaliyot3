@@ -1,0 +1,19 @@
+.logo__section {
+  background-color: #D1F4F9;
+  padding: 10px 0px 50px;
+}
+
+.logo {
+  padding: 100px 0px 40px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.logo__title {
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
