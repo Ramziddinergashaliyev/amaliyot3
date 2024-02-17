@@ -35,7 +35,7 @@
 .home__left__btn {
   padding: 12px 35px;
   color: white;
-  border: none;
+  border: 1px solid #35AFBF;
   font-family: Work Sans;
   font-size: 18px;
   font-weight: 500;
@@ -44,6 +44,11 @@
   text-align: left;
   border-radius: 6px;
   background-color: #35AFBF;
+}
+
+.home__left__btn:hover {
+  background-color: white;
+  color: #32A3B2;
 }
 
 span {

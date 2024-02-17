@@ -33,6 +33,12 @@
 .about__card {
   width: 300px;
   text-align: center;
+  padding: 10px;
+}
+
+.about__card:hover {
+  box-shadow: 1px 1px 8px gray;
+  border-radius: 8px;
 }
 
 .about__card__title {
